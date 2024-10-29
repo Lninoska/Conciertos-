@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.form-card {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.tabs span {
+    cursor: pointer;
+    color: #bbb;
+}
+
+.tabs .active {
+    color: #fff;
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 12px;
+    color: #ddd;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    background-color: #444;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.checkbox input {
+    margin-right: 8px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.blue {
+    background-color: #007bff;
+}
+
+.yellow {
+    background-color: #ffc107;
+}
+
